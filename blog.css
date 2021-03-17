@@ -1,0 +1,265 @@
+*{box-sizing: border-box;
+/* width: 100%; */}
+
+
+.navbar{
+    position:relative;
+    text-decoration: none;
+    /* border: 1px solid green; */
+    height:85px;
+}
+
+.navbar .nav{
+    position: absolute;
+}
+.navbar ul li  {
+    display:inline;
+}
+.navbar ul li  a{
+text-decoration: none;
+}
+.navbar .nav1{
+    left: 140px;
+    top: 0px;
+    
+}
+.navbar .nav2{
+    left: 320px;
+    top: 30px;
+}
+.navbar .nav2 a{
+    color: gray;
+}
+.navbar .nav3{
+    left: 380px;
+    top: 30px;
+}
+.navbar .nav3 a{
+    color:white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color:rgba(26, 137, 23, 1);
+}
+.navbar .nav4{
+    right: 380px;
+    top: 30px;
+}
+.navbar .nav4 a{
+    color:green;
+}
+
+.navbar .nav5{
+    right: 270px;
+    top: 30px;
+}
+
+.navbar .nav5 a{
+    color: green;
+    border: 1px solid green;
+    border-radius: 3px;
+    padding: 8px 15px;
+}
+.info{
+    /* border: 2px solid red; */
+    height: 2830px;
+    /* width: auto; */
+    position: relative;
+   
+  
+}
+.info h1{
+    font-size:50px;
+}
+.info p{
+    float: left;
+    margin: 5px 7px;    
+}
+.box{
+    position: absolute;
+}
+.box1{
+    left: 430px;
+
+}
+.box2{
+    left: 430px;
+    top: 170px;
+
+}
+.box3{
+    left: 430px;
+    top: 220px;
+    font-size: x-large;
+
+}
+.box4{
+    left: 430px;
+    top: 340px;
+    font-size: x-large;
+
+}
+.box5{
+    left: 300px;
+    top: 500px;
+}
+
+.box5 span{
+    float: right;
+    margin-left: 17px
+}
+
+.box5 span p{
+    font-size: x-large;
+}
+/* .box6{
+    right: 240px;
+    top: 470px;
+}
+.box6 p{
+    font-size: x-large;
+} */
+.box7{
+    
+    left: 430px;
+    top: 850px;
+}
+.box7 p{
+    font-size: x-large;
+}
+.box7 ol li{
+    font-size: x-large; 
+}
+.box8{
+left: 430px;
+top:1230px ;
+}
+.box8 p{
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+.box9{
+    left: 438px;
+    top:2000px ;
+    }
+    .box10{
+        left: 300px;
+        top:2000px ;
+        }
+     
+.box10 p{
+    float: right;
+    font-size: x-large;
+    margin-left: 17px;
+}
+
+.box11{
+    left:438px;
+    top: 2350px;
+font-size: x-large;
+}
+.navbar2{
+    position: relative;
+    left: 400px;
+}
+
+.navbar2 ul li{
+    display: inline;
+   
+}
+.navbar2 ul li a{
+    margin: 5px 5px;
+    padding: 5px 15px;
+    color: rgba(117, 117, 117, 1);
+    text-decoration: none;
+    /* border: 1px solid red; */
+    background-color: rgba(242, 242, 242, 1);;
+border-radius: 3px;    
+}
+.info_siddhi{
+    position: relative;
+    /* border: 1px solid red; */
+    height: 140px;
+    background-color: rgba(250, 250, 250, 1);
+}
+.last{
+    position: absolute;
+}
+.last1{
+    top:10px;
+    left: 438px;
+}
+.last2{
+    top:29px;
+    right: 380px;
+}
+.last3{
+    top: 60px;
+    left: 438px;
+    color: rgb(165, 143, 143);
+}
+
+
+
+.info_siddhi a{
+    color:white;
+    /* margin-right: 300px; */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color:rgba(26, 137, 23, 1);}
+    .info_siddhi a:hover{
+        background-color: rgb(179, 204, 142);
+        color: black;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid red; */
+        justify-content: center;
+        height: 240px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 1250px;
+        margin-left: 100px;
+    }
+    .foot{
+        /* border: 1px solid red; */
+        margin: 5px;
+        width: 274px;
+        height: 108px;
+        
+    }
+    
+
+.foot img{
+    float: right;
+    padding-right: 10px;
+}
+.foot1 img{
+    float: right;
+    margin-top:-10px ;
+}
+
+
+    .footerpro{
+        background-color: rgba(0, 0, 0, 0.9);
+       overflow: hidden;
+       height: 80px;
+    }
+    .footerpro ul li{
+        position: relative;
+        display: inline;
+        float :right ;
+        right: 200px;
+        top: 20px;
+    
+    }
+    .footerpro ul li a{
+        text-decoration: none;
+        margin: 10px 20px ;
+        color: white;
+    }
+
+    .footerpro ul li a:hover{
+    text-decoration: underline;}
